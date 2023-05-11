@@ -15,7 +15,7 @@ function Header(props) {
     <header className="flex flex-col sm:flex-row m-5 items-center sm:items-end justify-between h-auto">
       <div className="flex  flex-grow  justify-evenly max-w-2xl ">
         <HeaderItem title="Home" Icon={HomeIcon} />
-        <HeaderItem title="Home" Icon={CheckBadgeIcon} />
+        <HeaderItem title="Verified" Icon={CheckBadgeIcon} />
         <HeaderItem title="Trending" Icon={BoltIcon} />
         <HeaderItem title="Collections" Icon={RectangleStackIcon} />
         <HeaderItem title="Search" Icon={MagnifyingGlassIcon} />
